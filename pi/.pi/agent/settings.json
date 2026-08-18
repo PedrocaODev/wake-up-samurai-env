@@ -1,0 +1,29 @@
+{
+  "lastChangelogVersion": "0.84.2",
+  "theme": "wake-up-samurai",
+  "packages": [
+    "npm:omniroute-pi-ext-integration",
+    "npm:pi-mcp-adapter",
+    "npm:@cortexkit/pi-magic-context",
+    {
+      "source": "../../projects/obsidian-second-brain/dist/pi",
+      "prompts": [
+        "-.pi/prompts/obsidian-health.md"
+      ]
+    },
+    "git:github.com/DietrichGebert/ponytail",
+    "npm:@narumitw/pi-btw",
+    "npm:pi-vim",
+    "npm:@tintinweb/pi-subagents"
+  ],
+  "defaultProvider": "omni",
+  "defaultModel": "antigravity/gemini-3.6-flash-high",
+  "defaultThinkingLevel": "high",
+  "hideThinkingBlock": true,
+  "treeFilterMode": "default",
+  "showCacheMissNotices": true,
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "steeringMode": "one-at-a-time"
+}

@@ -1,0 +1,118 @@
+# Wake Up Samurai
+# Shared palette: Alacritty / Herdr / Pi / Neovim
+
+[colors.primary]
+background = "#0b0f14"
+foreground = "#f08080"
+
+# Used when applications request "dim" text.
+dim_foreground = "#a85c5c"
+
+# Only used when draw_bold_text_with_bright_colors = true.
+bright_foreground = "#f5a0a0"
+
+
+# ──────────────────────────────────────────────────────────────
+# Cursor
+# ──────────────────────────────────────────────────────────────
+
+[colors.cursor]
+text = "#0b0f14"
+cursor = "#e23d3d"
+
+[colors.vi_mode_cursor]
+text = "#0b0f14"
+cursor = "#6ec6ff"
+
+
+# ──────────────────────────────────────────────────────────────
+# Selection
+# ──────────────────────────────────────────────────────────────
+
+[colors.selection]
+text = "#f08080"
+background = "#3a1d25"
+
+
+# ──────────────────────────────────────────────────────────────
+# Search
+# ──────────────────────────────────────────────────────────────
+
+[colors.search.matches]
+foreground = "#0b0f14"
+background = "#f6da63"
+
+[colors.search.focused_match]
+foreground = "#0b0f14"
+background = "#e23d3d"
+
+
+# ──────────────────────────────────────────────────────────────
+# Hints / links
+# ──────────────────────────────────────────────────────────────
+
+[colors.hints.start]
+foreground = "#0b0f14"
+background = "#6ec6ff"
+
+[colors.hints.end]
+foreground = "#0b0f14"
+background = "#d87474"
+
+
+# ──────────────────────────────────────────────────────────────
+# Footer
+# ──────────────────────────────────────────────────────────────
+
+[colors.footer_bar]
+foreground = "#f08080"
+background = "#131922"
+
+
+# ──────────────────────────────────────────────────────────────
+# ANSI — normal
+# ──────────────────────────────────────────────────────────────
+
+[colors.normal]
+black   = "#0b0f14"
+red     = "#e23d3d"
+green   = "#3eea9a"
+yellow  = "#f6da63"
+blue    = "#4e9dc7"
+magenta = "#d87474"
+cyan    = "#6ec6ff"
+white   = "#f08080"
+
+
+# ──────────────────────────────────────────────────────────────
+# ANSI — bright
+# ──────────────────────────────────────────────────────────────
+
+[colors.bright]
+black   = "#a85c5c"
+red     = "#ff5a5a"
+green   = "#55f5aa"
+yellow  = "#ffe47a"
+blue    = "#83d0ff"
+magenta = "#ef9292"
+cyan    = "#8bd8ff"
+white   = "#f5a0a0"
+
+
+# ──────────────────────────────────────────────────────────────
+# ANSI — dim
+# ──────────────────────────────────────────────────────────────
+
+[colors.dim]
+black   = "#090c10"
+red     = "#9b3434"
+green   = "#287a58"
+yellow  = "#927f39"
+blue    = "#346a85"
+magenta = "#8e5050"
+cyan    = "#477f9d"
+white   = "#a85c5c"
+
+
+[colors]
+draw_bold_text_with_bright_colors = false

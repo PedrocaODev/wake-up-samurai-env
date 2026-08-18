@@ -1,0 +1,56 @@
+onboarding = false
+
+[ui]
+copy_on_select = true
+accent = "#e23d3d"
+pane_borders = true
+pane_gaps = true
+show_agent_labels_on_pane_borders = true
+
+[terminal]
+default_shell = "/usr/bin/zsh"
+shell_mode = "auto"
+
+[theme]
+name = "catppuccin"
+
+[theme.custom]
+# ──────────────────────────────────────────────────────────────
+# Wake Up Samurai
+# ──────────────────────────────────────────────────────────────
+
+# Surfaces
+panel_bg    = "#0b0f14"
+surface0    = "#131922"
+surface1    = "#1d2531"
+surface_dim = "#090c10"
+
+# Inactive chrome
+#
+# These need to be substantially brighter than before.
+# overlay0 is used for things like sidebar controls / inactive UI.
+# overlay1 is the stronger inactive foreground.
+overlay0 = "#a85c5c"
+overlay1 = "#d07878"
+
+# Typography
+#
+# text       = primary readable foreground
+# subtext0   = section headings / secondary foreground
+text     = "#f08080"
+subtext0 = "#d87474"
+
+# Primary red
+accent = "#e23d3d"
+mauve  = "#e23d3d"
+red    = "#ee4b4b"
+
+# Semantic colors
+blue   = "#6ec6ff"
+teal   = "#6ec6ff"
+green  = "#3eea9a"
+yellow = "#f6da63"
+peach  = "#eaa65a"
+
+[ui.toast]
+delivery = "system"

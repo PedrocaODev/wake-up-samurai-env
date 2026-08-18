@@ -1,0 +1,108 @@
+{
+  "$schema": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "wake-up-samurai",
+
+  "vars": {
+    "bg": "#0b0f14",
+    "surface0": "#131922",
+    "surface1": "#1d2531",
+    "surfaceDim": "#090c10",
+
+    "red": "#e23d3d",
+    "redStrong": "#ee4b4b",
+    "redText": "#f08080",
+    "redSecondary": "#d87474",
+    "redMuted": "#a85c5c",
+
+    "border": "#8a4f4f",
+    "borderDim": "#5f3030",
+
+    "cyan": "#6ec6ff",
+    "cyanMuted": "#4e9dc7",
+
+    "green": "#3eea9a",
+    "yellow": "#f6da63",
+    "peach": "#eaa65a",
+
+    "selection": "#25202a",
+    "search": "#57272d"
+  },
+
+  "colors": {
+    "accent": "red",
+
+    "border": "border",
+    "borderAccent": "redStrong",
+    "borderMuted": "borderDim",
+
+    "success": "green",
+    "error": "redStrong",
+    "warning": "yellow",
+
+    "text": "redText",
+    "muted": "redSecondary",
+    "dim": "redMuted",
+    "thinkingText": "redSecondary",
+
+    "selectedBg": "selection",
+    "scrollbarThumb": "border",
+
+    "searchMatchBg": "search",
+    "searchMatchText": "redText",
+
+    "userMessageBg": "surface0",
+    "userMessageText": "redText",
+
+    "customMessageBg": "surface0",
+    "customMessageText": "redSecondary",
+    "customMessageLabel": "redStrong",
+
+    "toolPendingBg": "#120f14",
+    "toolSuccessBg": "#0c1715",
+    "toolErrorBg": "#1b0d10",
+
+    "toolTitle": "redText",
+    "toolOutput": "redSecondary",
+
+    "mdHeading": "redText",
+    "mdLink": "cyan",
+    "mdLinkUrl": "cyanMuted",
+    "mdCode": "cyan",
+    "mdCodeBlock": "redSecondary",
+    "mdCodeBlockBorder": "border",
+    "mdQuote": "redSecondary",
+    "mdQuoteBorder": "borderDim",
+    "mdHr": "borderDim",
+    "mdListBullet": "redStrong",
+
+    "toolDiffAdded": "green",
+    "toolDiffRemoved": "redStrong",
+    "toolDiffContext": "redSecondary",
+
+    "syntaxComment": "redMuted",
+    "syntaxKeyword": "redStrong",
+    "syntaxFunction": "cyan",
+    "syntaxVariable": "redText",
+    "syntaxString": "green",
+    "syntaxNumber": "peach",
+    "syntaxType": "cyan",
+    "syntaxOperator": "redStrong",
+    "syntaxPunctuation": "redSecondary",
+
+    "thinkingOff": "borderDim",
+    "thinkingMinimal": "border",
+    "thinkingLow": "redSecondary",
+    "thinkingMedium": "redText",
+    "thinkingHigh": "red",
+    "thinkingXhigh": "redStrong",
+    "thinkingMax": "#ff5a5a",
+
+    "bashMode": "yellow"
+  },
+
+  "export": {
+    "pageBg": "#0b0f14",
+    "cardBg": "#131922",
+    "infoBg": "#1d2531"
+  }
+}
