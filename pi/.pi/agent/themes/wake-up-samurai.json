@@ -57,9 +57,9 @@
     "customMessageText": "redSecondary",
     "customMessageLabel": "redStrong",
 
-    "toolPendingBg": "#120f14",
-    "toolSuccessBg": "#0c1715",
-    "toolErrorBg": "#1b0d10",
+    "toolPendingBg": "#1d2531",
+    "toolSuccessBg": "#123326",
+    "toolErrorBg": "#3a1d25",
 
     "toolTitle": "redText",
     "toolOutput": "redSecondary",
