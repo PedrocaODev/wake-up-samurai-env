@@ -7,6 +7,14 @@ pane_borders = true
 pane_gaps = true
 show_agent_labels_on_pane_borders = true
 
+# Herdr renders workspace/tab/agent tokens with overlay0 + DIM, which foot
+# darkens ~50% -> nearly invisible. Keep the color, drop the DIM.
+[ui.sidebar.agents]
+rows = [
+  ["state_icon", { token = "workspace", dim = false }, { token = "tab", dim = false }],
+  [{ token = "agent", dim = false }],
+]
+
 [terminal]
 default_shell = "/run/current-system/sw/bin/zsh"
 shell_mode = "auto"
