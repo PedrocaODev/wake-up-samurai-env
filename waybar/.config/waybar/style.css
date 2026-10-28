@@ -1,0 +1,30 @@
+@define-color bg #0b0f14;
+@define-color bg-dark #090c10;
+@define-color surface #131922;
+@define-color text #f08080;
+@define-color text-secondary #d87474;
+@define-color muted #a85c5c;
+@define-color accent #e23d3d;
+@define-color border #8a4f4f;
+@define-color border-dim #5f3030;
+@define-color cyan #6ec6ff;
+@define-color cyan-dim #4e9dc7;
+@define-color green #3eea9a;
+@define-color yellow #f6da63;
+
+* { font-family: monospace, "Symbols Nerd Font Mono"; font-size: 13px; }
+window#waybar { background: transparent; color: @text; }
+.modules-left, .modules-center, .modules-right { background: @surface; border: 2px solid @border-dim; border-radius: 10px; padding: 0 8px; }
+.modules-left { margin: 0 0 0 8px; }
+.modules-center { margin: 0; }
+.modules-right { margin: 0 8px 0 0; }
+#workspaces button { color: @muted; min-width: 28px; padding: 0 6px; border: 2px solid transparent; border-radius: 10px; }
+#workspaces button.active { color: @bg; background: @accent; border-color: @accent; }
+#workspaces button.urgent { color: @yellow; background: @bg-dark; border-color: @accent; }
+#window, #mpris, #clock, #cpu, #memory, #disk, #pulseaudio, #backlight, #network, #privacy, #battery, #tray { padding: 0 5px; }
+#window { color: @text-secondary; }
+#cpu, #memory { color: @green; }
+#cpu, #memory, #disk, #pulseaudio, #backlight, #network, #battery { min-width: 0; }
+#disk { color: @yellow; }
+#network, #backlight, #privacy, #battery { color: @cyan; }
+#pulseaudio.muted { color: @muted; }

@@ -1,0 +1,6 @@
+Monitor eDP-1 (ID 0):
+	1920x1080@60.00 at 0x0
+Monitor USB-C-1 (ID 1):
+	3440x1440@60.00 at 1920x0
+Monitor DP-1 (ID 2):
+	2560x1440@60.00 at 5360x0
