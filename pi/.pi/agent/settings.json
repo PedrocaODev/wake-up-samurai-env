@@ -13,13 +13,13 @@
     },
     "git:github.com/DietrichGebert/ponytail",
     "npm:@narumitw/pi-btw",
-    "npm:pi-vim",
-    "npm:@tintinweb/pi-subagents"
+    "npm:@tintinweb/pi-subagents",
+    "npm:@xynogen/pix-sudo"
   ],
-  "defaultProvider": "omni",
-  "defaultModel": "antigravity/gemini-3.6-flash-high",
+  "defaultProvider": "xiaomi",
+  "defaultModel": "mimo-v2.6-flash",
   "defaultThinkingLevel": "high",
-  "hideThinkingBlock": true,
+  "hideThinkingBlock": false,
   "treeFilterMode": "default",
   "showCacheMissNotices": true,
   "terminal": {
